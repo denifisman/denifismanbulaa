@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- navbar awal -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ngoding<b>pintar</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#roadmap">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#materi">Materi apa yang akan dipelajari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#kontak">Kontak kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar akhir -->
+    <!-- awal Showcase -->
+    <section class="bg-primary text-white p-5 p-lg-0 pt-lg-5 text-center text-lg-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="lead my-4">
+                    <h1>Hai Sobat, Ngoding<b>pintar</b></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius qui aperiam, esse quaerat ea
+                        hic delectus magni dolore. Voluptatibus modi libero placeat ducimus illo impedit quasi obcaecati
+                        natus vitae.</p>
+                    <button class="btn btn-light btn-lg">Lanjut yuks!</button>
+                </div>
+                <img src="img/showcase.png" alt="showcase" class="img-fluid w-50 d-none d-sm-block">
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Showcase -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
